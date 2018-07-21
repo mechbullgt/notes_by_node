@@ -1,0 +1,27 @@
+{
+  "name": "notes_by_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts":{
+    "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mechbullgt/notes_by_node.git"
+  },
+  "author": "Maqbool Ansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mechbullgt/notes_by_node/issues"
+  },
+  "homepage": "https://github.com/mechbullgt/notes_by_node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
